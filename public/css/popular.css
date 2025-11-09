@@ -1,0 +1,124 @@
+.popular-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto 60px;
+}
+
+.popular-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.popular-header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.popular-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.popular-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.popular-card:hover {
+    transform: translateY(-4px);
+}
+
+.article-image {
+    width: 40%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 20px 25px;
+    flex: 1;
+}
+
+.article-content h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.article-content small {
+    color: #777;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.article-content p {
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.article-content a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #1b1c27;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.article-content a:hover {
+    background-color: #0078d7;
+}
+
+.pagination {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.pagination span {
+    font-weight: 500;
+}
+
+.pagination .divider {
+    color: #777;
+    margin: 0 4px;
+}
+
+.pagination a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 4px;
+    transition: color 0.2s;
+}
+
+.pagination a.active {
+    color: #0078d7;
+    font-weight: 700;
+}
+
+.pagination a:hover {
+    color: #0078d7;
+}

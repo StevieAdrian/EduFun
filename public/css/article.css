@@ -1,0 +1,40 @@
+.article-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 60px auto;
+    background-color: #f5f8f5;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+.article-header h2 {
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.article-banner {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.article-header h1 {
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.article-header .meta {
+    color: #777;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+.article-body p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+}
